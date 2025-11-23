@@ -1,0 +1,14 @@
+:root{
+  --bg:#f3f6f9;
+  --card:#ffffff;
+  --accent:#0ea5a4;
+}
+body{font-family:Inter,system-ui,Arial; background:var(--bg); margin:0; padding:18px;}
+.app{max-width:1100px;margin:0 auto}
+.header{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.panel{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(10,10,10,0.06)}
+.controls button{margin-right:8px}
+.canvas-wrap{position:relative;display:inline-block;border:1px solid #e6eef2}
+.sticker-dom{position:absolute;touch-action:none}
+.small{font-size:12px;color:#666}
+.spinner{display:inline-block;padding:6px 8px;background:#eef;border-radius:6px}
