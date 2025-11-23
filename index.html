@@ -3,18 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editor AI</title>
-
-    <!-- CSS utama -->
+    <title>Editor</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
-    <div id="app"></div>
+    <div id="root"></div>
 
-    <!-- PENTING!!! FIX PATH AGAR RENDER BISA BUILD -->
+    <!-- FIX PALING PENTING -->
+    <!-- HARUS './src/main.jsx' — bukan '/', bukan 'src/', harus pakai titik -->
     <script type="module" src="./src/main.jsx"></script>
-    <!-- BUKAN /src/main.jsx -->
-    <!-- HARUS ./src/main.jsx -->
   </body>
 </html>
